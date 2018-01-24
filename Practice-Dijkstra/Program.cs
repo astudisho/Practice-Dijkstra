@@ -1,12 +1,15 @@
 ﻿using System;
 
-namespace Practice_Dijkstra
+using Practice.Dijkstra.Implementations;
+using Practice.Dijkstra.Interfaces;
+
+namespace Practice.Dijkstra
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+			var grafo = new  Graph(); 
         }
     }
 }
